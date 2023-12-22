@@ -1,0 +1,75 @@
+html{
+    background: linear-gradient(rgba(0, 0, 0, 0.879),rgba(0, 0, 0, 0.7)),url(new-york-city-5oaa14h4mw6w3o71.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+#img1{
+    height: 100px;
+    animation-name: SpiderMan; 
+    animation-duration: 10s;
+    translate: 500px 0;
+    
+}
+
+#img2{
+    height: 100px;
+    animation-name: doctor_octopus;
+    animation-duration: 10s;
+    translate: 0 150px;
+}
+
+@keyframes doctor_octopus{
+    0%{  
+        rotate: 0 0;
+    }
+    20%{
+        translate: 40px 300px;
+    }
+    40%{
+        translate: 100px 300px;
+    }
+   
+    65%{
+        translate: 400px 50px;
+    }
+    80%{
+        translate: 400px 50px;
+        
+    }
+    100%{
+        translate: 400px 50px;
+    }
+
+}
+
+@keyframes SpiderMan{
+    0%{
+        
+        rotate: 0 0;
+    }
+    20%{
+        translate: 0 150px;
+        rotate: 45deg;
+    }
+    40%{
+        translate: 100px 300px;
+        rotate: 270deg;
+    }
+    65%{
+        translate: 100px 300px;
+    }
+    80%{
+        
+        translate: 400px 50px;
+        
+    }
+    100%{
+        translate: 470px 50px;
+    }
+}
+
+#img2::after{
+    content: 'ziad';
+    
+}
