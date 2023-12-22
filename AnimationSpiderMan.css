@@ -40,7 +40,6 @@ html{
     100%{
         translate: 400px 50px;
     }
-
 }
 
 @keyframes SpiderMan{
@@ -67,9 +66,4 @@ html{
     100%{
         translate: 470px 50px;
     }
-}
-
-#img2::after{
-    content: 'ziad';
-    
 }
